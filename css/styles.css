@@ -1,0 +1,218 @@
+body {
+    background: rgb(219, 163, 106);
+    background: linear-gradient(90deg, rgba(219, 163, 106, 1) 0%, rgba(207, 117, 173, 1) 50%, rgba(219, 163, 106, 1) 100%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: transparent url("../img/summer\ drink2.jpg") center no-repeat;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.p-h2 {
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+    background: transparent url("../img/summer\ drink19.jpg") center repeat;
+    padding: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background: transparent url("../img/summer\ drink20.jpg") no-repeat center;
+    color: rgb(12, 12, 12);
+    box-shadow: 4px 8px 10px rgb(12, 12, 12);
+}
+
+.menu li:hover {
+    background-color: rgb(219, 163, 106);
+}
+
+.aside {
+    background: transparent url("../img/summer\ drink18.jpg") center;
+    padding: 30px;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 4px 8px 10px rgb(12, 12, 12);
+}
+
+.container-fluid {
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: rgb(255, 218, 185, 0.3);
+    color: rgb(12, 12, 12);
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.card {
+    display: inline-block;
+    margin: 30px;
+}
+
+.fa-facebook {
+    color: rgb(12, 12, 12);
+}
+
+.fa-instagram {
+    color: rgb(12, 12, 12);
+}
+
+.fa-twitter {
+    color: rgb(12, 12, 12);
+}
+
+.fa-martini-glass {
+    color: rgb(64, 85, 16);
+}
+
+.fa-wine-glass {
+    color: rgb(83, 11, 11);
+}
+
+.fa-whiskey-glass {
+    color: rgb(39, 35, 10);
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}

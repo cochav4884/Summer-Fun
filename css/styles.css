@@ -9,20 +9,41 @@ body {
 
 .navbar {
     background: transparent url("../img/summer\ drink2.jpg") center no-repeat;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: 5px solid rgb(12, 12, 12);
+    height: 150px;
+}
+
+.d-flex {
+    margin-left: 1340px;
+    margin-top: 8px;
+    width: 430px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 400%;
     text-align: center;
 }
 
 .p-h2 {
     text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: xx-large;
+}
+
+.p-h3 {
+    text-align: center;
+    font-size: xx-large;
 }
 
 .jumbotron {
     border: 5px solid rgb(12, 12, 12);
     box-shadow: 4px 8px 10px rgb(12, 12, 12);
+    background: rgb(224, 224, 27, 0.725)
 }
 
 .row::after {
@@ -43,6 +64,8 @@ html {
 .header {
     background: transparent url("../img/summer\ drink19.jpg") center repeat;
     padding: 15px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(12, 12, 12);
 }
 
 .menu ul {
@@ -59,6 +82,7 @@ html {
     height: 100px;
     margin-left: 20px;
     border: 5px solid rgb(12, 12, 12);
+    width: 600px;
 }
 
 .menu li:hover {
@@ -67,18 +91,22 @@ html {
 
 .first {
     background: transparent url("../img/summer\ drink20.jpg") no-repeat center;
+    font-size: xx-large;
 }
 
 .second {
     background: rgb(255, 165, 0, 0.725)  url("../img/summer\ drink31.jpg") no-repeat center;
+    font-size: xx-large;
 }
 
 .third {
     background: transparent url("../img/summer\ drink13.jpg") no-repeat center;
+    font-size: xx-large;
 }
 
 .fourth {
     background: rgb(71, 204, 71, 0.5) url("../img/summer\ drink32.jpg") no-repeat center;
+    font-size: xx-large;
 }
 
 .aside {
@@ -89,12 +117,9 @@ html {
     font-size: 14px;
     box-shadow: 4px 8px 10px rgb(12, 12, 12);
     border: 5px solid rgb(12, 12, 12);
-    margin-right: 20px;
-    height: 500px;
-}
-
-.container-fluid {
-    margin-bottom: 15px;
+    margin-left: -150px;
+    height: 490px;
+    width: 600px;
 }
 
 .footer {

@@ -23,6 +23,17 @@ body {
     width: 430px;
 }
 
+h3 {
+    text-shadow: 2px 2px rgb(12, 12, 12);
+    font-size: 32px;
+}
+
+.p {
+    text-shadow: 2px 2px rgb(0, 0, 255);
+    color: rgb(253, 4, 4);
+    font-size: 36px;
+}
+
 h2 {
     font-size: 400%;
     text-align: center;

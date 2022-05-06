@@ -20,6 +20,11 @@ h2 {
     text-align: center;
 }
 
+.jumbotron {
+    border: 5px solid rgb(12, 12, 12);
+    box-shadow: 4px 8px 10px rgb(12, 12, 12);
+}
+
 .row::after {
     content: "";
     clear: both;
@@ -49,22 +54,43 @@ html {
 .menu li {
     padding: 8px;
     margin-bottom: 7px;
-    background: transparent url("../img/summer\ drink20.jpg") no-repeat center;
     color: rgb(12, 12, 12);
     box-shadow: 4px 8px 10px rgb(12, 12, 12);
+    height: 100px;
+    margin-left: 20px;
+    border: 5px solid rgb(12, 12, 12);
 }
 
 .menu li:hover {
     background-color: rgb(219, 163, 106);
 }
 
+.first {
+    background: transparent url("../img/summer\ drink20.jpg") no-repeat center;
+}
+
+.second {
+    background: rgb(255, 165, 0, 0.725)  url("../img/summer\ drink31.jpg") no-repeat center;
+}
+
+.third {
+    background: transparent url("../img/summer\ drink13.jpg") no-repeat center;
+}
+
+.fourth {
+    background: rgb(71, 204, 71, 0.5) url("../img/summer\ drink32.jpg") no-repeat center;
+}
+
 .aside {
-    background: transparent url("../img/summer\ drink18.jpg") center;
+    background: rgb(0, 217, 255, 0.725) url("../img/summer\ drink18.jpg") no-repeat center;
     padding: 30px;
     color: rgb(12, 12, 12);
     text-align: center;
     font-size: 14px;
     box-shadow: 4px 8px 10px rgb(12, 12, 12);
+    border: 5px solid rgb(12, 12, 12);
+    margin-right: 20px;
+    height: 500px;
 }
 
 .container-fluid {

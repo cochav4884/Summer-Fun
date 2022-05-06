@@ -28,6 +28,12 @@ h2 {
     text-align: center;
 }
 
+.h2 {
+    font-size: 400%;
+    text-align: center;
+    margin-top: 90px;
+}
+
 .p-h2 {
     text-align: center;
     margin-left: 150px;
@@ -38,6 +44,18 @@ h2 {
 .p-h3 {
     text-align: center;
     font-size: xx-large;
+    text-shadow: 2px 2px rgb(12, 12, 12);
+}
+
+.p-h4 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.p-h5 {
+    text-align: center;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
 }
 
 .jumbotron {
@@ -95,7 +113,7 @@ html {
 }
 
 .second {
-    background: rgb(255, 165, 0, 0.725)  url("../img/summer\ drink31.jpg") no-repeat center;
+    background: rgb(255, 165, 0, 0.725) url("../img/summer\ drink31.jpg") no-repeat center;
     font-size: xx-large;
 }
 
@@ -122,17 +140,23 @@ html {
     width: 600px;
 }
 
+.item {
+    border: 5px solid rgb(12, 12, 12);
+}
+
 .footer {
     background-color: rgb(255, 218, 185, 0.3);
     color: rgb(12, 12, 12);
     text-align: center;
     font-size: 18px;
-    padding: 15px;
+    padding: 50px;
 }
 
 .card {
     display: inline-block;
     margin: 30px;
+    width: 200px;
+    border: 5px solid rgb(12, 12, 12);
 }
 
 .fa-facebook {
